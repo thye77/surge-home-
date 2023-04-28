@@ -1,0 +1,91 @@
+body{
+    background-color: #141b24;
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin-top: 20px;
+    background-color:  #141b24 ;
+    border: 3px solid #de404f;
+}
+
+/* Style the logo */
+.logo{
+    display: flex;
+    padding: 10px 20px 10px 20px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;  
+}
+
+nav {
+    list-style: none;
+    padding: 5px 10px;
+}
+
+nav a {
+    color: #dadada;
+    font-size: .8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+    margin: auto;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+.signin {
+    margin-left: 35em;
+    font-size: smaller;
+}
+
+.login{
+    display: inline-block;
+    font-size: medium;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-right: 50%;
+    margin-left: 50%;
+    text-decoration: none;
+    color:#000000;
+    background-color: #d4d4d4;
+    border: 1px solid rgb(136, 136, 136);
+    border-radius: 5px;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+    margin-left: 33%;
+    color: #ffffff;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+
+footer {
+    height: 40px;
+    padding: 20px 20px;
+    border-top: 3px solid #de404f;
+    color: #ebe4e3;
+    margin-top: 30px;
+    box-shadow: 0px 25px 40px -40px #ebe4e3 inset;
+    text-align: center;
+}
